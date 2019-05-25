@@ -1,0 +1,31 @@
+{
+	"require" : {
+		"monolog/monolog" : "^1.24",
+		"league/flysystem" : "^1.0"
+	},
+	"name" : "modernphp/scanner",
+	"description" : "Scan URLs from a CSV file and report inaccessible URLS",
+	"homepage" : "http://example.com",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "mars",
+			"email" : "marscore123@gmail.com",
+			"homepage" : "https://github.com/czsvn",
+			"role" : "Developer"
+		}
+	],
+	"support" : {
+		"email" : "help@example.com"
+	},
+	"minimum-stability" : "stable",
+	"autoload" : {
+		"psr-4" : {
+			"Oreilly\\ModernPHP\\" : "src"
+		}
+	},
+	"keywords" : [
+		"url",
+		"scanner",
+		"csv"
+	]
+}
