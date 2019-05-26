@@ -1,7 +1,8 @@
 {
 	"require" : {
 		"monolog/monolog" : "^1.24",
-		"league/flysystem" : "^1.0"
+		"league/flysystem" : "^1.0",
+		"filp/whoops": "^2.3"
 	},
 	"name" : "modernphp/scanner",
 	"description" : "Scan URLs from a CSV file and report inaccessible URLS",
@@ -27,5 +28,11 @@
 		"url",
 		"scanner",
 		"csv"
-	]
+	],
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	}
 }
