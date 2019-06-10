@@ -5,6 +5,8 @@ try {
         'root',
         'root'
         );
+    $a = 1;
+    echo "1";
 } catch (Exception $e) {
     echo 'Database connection failed';
     exit;
